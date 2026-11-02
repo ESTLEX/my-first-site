@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Протокол</title>
+  <link rel="stylesheet" href="style.css?v=2">
+</head>
+<body>
+  <header>
+    <h1>Добро пожаловать в протокол!</h1>
+    <nav>
+      <a href="#top">Главная</a><br>
+      <a href="#me">Обо мне</a><br>
+      <a href="#obsession">Цели</a><br>
+    </nav>
+  </header>
+
+  <hr>
+
+  <main>
+     <section class="card">
+        <h2>estlex</h2>
+        <p> учусь веб разработкеб, мне 14 лет.</p>
+        <img src="images/myphoto.jpg" alt ="мое фото" width="200">
+     </section>
+
+    <section id="me">
+  <h2>Обо мне:</h2>
+  <article>
+    <p>Я учусь веб-разработке, вот моё фото:</p>
+    <figure>
+      <img src="images/myphoto.jpg" alt="Моё фото" width="300">
+      <figcaption>ESTLEX, начинающий веб-разработчик</figcaption>
+    </figure>
+  </article>
+</section>
+
+    <section id="obsession">
+      <h2>Мои цели:</h2>
+      <ol>
+        <li>Выучить HTML</li>
+        <li>Выучить CSS</li>
+        <li>Сделать свой сайт</li>
+      </ol>
+      <p>Я их <strong>достигну</strong></p>
+    </section>
+<h2>Связаться со мной</h2>
+
+<form action="/" method="post">
+  <!-- Поле для имени -->
+  <p>
+    <label for="name">Ваше имя:</label>
+    <input type="text" id="name" name="user_name" placeholder="Например, Иван">
+  </p>
+
+  <!-- Поле для email -->
+  <p>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="user_email" placeholder="you@example.com">
+  </p>
+
+  <!-- Большое поле для сообщения -->
+  <p>
+    <label for="message">Сообщение:</label>
+    <textarea id="message" name="user_message" rows="4" placeholder="Напишите что-нибудь..."></textarea>
+  </p>
+
+  <!-- Кнопка отправки -->
+  <button type="submit">Отправить</button>
+</form>
+
+
+   </main>
+
+  <footer>
+    <p>by: ESTLEX</p>
+    <p>Почта: floxxsinh@mail.ru</p>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
