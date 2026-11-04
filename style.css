@@ -2,7 +2,12 @@ nav {
   display: flex;
   gap: 90px;
   justify-content: center;
-  flex-direction: column;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;   /* разрешает карточкам переноситься на новую строку, если не хватает места */
 }
 
 body {
@@ -66,4 +71,7 @@ a:hover {
   border-radius: 10px;
 }
 
+.card.active {
+  background-color: #ffcc00; /* жёлтый, когда активна */
+}
 
